@@ -7,7 +7,8 @@
   
   Here in this location, several directories (e.g., man1, man2, man3...) store manual pages of several categories of commands.
   
-   ```   The standard sections of the manual include:
+   ```
+   The standard sections of the manual include:
 
       man1  -  User Commands
       man2  -  System Calls
