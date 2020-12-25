@@ -7,11 +7,10 @@
   
   Here in this location several directories (eg.: man1, man2, man3....) store manual pages of several categories of commands.
   <p>
-  MANUAL SECTIONS<br  />
     The standard sections of the manual include:
 
-    1      User Commands\
-    2      System Calls<br  />
+    1</t>User Commands\
+    2<t  />System Calls<br  />
     3      C Library Functions\
     4      Devices and Special Files\
     5      File Formats and Conventions\
