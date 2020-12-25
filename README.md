@@ -5,7 +5,7 @@
 
   <img src = "/images/Setting_Up_Man_Page_step-1.png">
   
-  Here in this location several directories (eg.: man1, man2, man3....) store manual pages of several categories of commands.
+  Here in this location, several directories (e.g., man1, man2, man3...) store manual pages of several categories of commands.
   
    ```   The standard sections of the manual include:
 
