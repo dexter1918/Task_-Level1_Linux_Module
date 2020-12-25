@@ -6,11 +6,11 @@
   <img src = "/images/Setting_Up_Man_Page_step-1.png">
   
   Here in this location several directories (eg.: man1, man2, man3....) store manual pages of several categories of commands.
-  `MANUAL SECTIONS
-    The standard sections of the manual include:
+  <p><br>MANUAL SECTIONS</br>
+    <br>The standard sections of the manual include:</br>
 
-    1      User Commands
-    2      System Calls
+    <br>1      User Commands</br>
+    <br>2      System Calls</br>
     3      C Library Functions
     4      Devices and Special Files
     5      File Formats and Conventions
@@ -19,6 +19,6 @@
     8      System Administration tools and Daemons
 
     Distributions customize the manual section to their specifics,
-    which often include additional sections.`
+    which often include additional sections.</p>
 
 
