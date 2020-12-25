@@ -16,7 +16,7 @@
       man4  -  Devices and Special Files
       man5  -  File Formats and Conventions
       man6  -  Games et. al
-      man7  -  Miscellanea
+      man7  -  Miscellaneous
       man8  -  System Administration tools and Daemons
    ```
    Now since `internsctl` is a `User Command`, the manual page should be created and stored in `man1` directory.
