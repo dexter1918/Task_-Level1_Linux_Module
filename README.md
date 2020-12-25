@@ -17,4 +17,5 @@
       man5  -  File Formats and Conventions
       man6  -  Games et. al
       man7  -  Miscellanea
-      man8  -  System Administration tools and Daemons ```
+      man8  -  System Administration tools and Daemons
+   ```
