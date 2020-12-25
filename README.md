@@ -20,3 +20,5 @@
       man8  -  System Administration tools and Daemons
    ```
    Now since `internsctl` is a `User Command`, the manual page should be created and stored in `man1` directory.
+   
+   - *Step 1 :* 
