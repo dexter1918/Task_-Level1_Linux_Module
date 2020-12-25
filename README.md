@@ -9,14 +9,14 @@
   
    ```   The standard sections of the manual include:
 
-      man1      User Commands
-      man2      System Calls
-      man3      C Library Functions
-      man4      Devices and Special Files
-      man5      File Formats and Conventions
-      man6      Games et. al
-      man7      Miscellanea
-      man8      System Administration tools and Daemons
+      man1  -  User Commands
+      man2  -  System Calls
+      man3  -  C Library Functions
+      man4  -  Devices and Special Files
+      man5  -  File Formats and Conventions
+      man6  -  Games et. al
+      man7  -  Miscellanea
+      man8  -  System Administration tools and Daemons
 
       Distributions customize the manual section to their specifics,
       which often include additional sections.```
