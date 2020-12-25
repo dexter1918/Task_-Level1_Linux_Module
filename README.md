@@ -5,7 +5,7 @@
 
   <img src = "/images/Setting_Up_Man_Page_step-1.png">
   
-  Here in this location, several directories (e.g., man1, man2, man3...) store manual pages of several categories of commands.
+  Here in this location, several directories (e.g., man1, man2, man3...) store manual pages of several categories of commands. See below -
   
    ```
    The standard sections of the manual include:
@@ -18,6 +18,4 @@
       man6  -  Games et. al
       man7  -  Miscellanea
       man8  -  System Administration tools and Daemons
-
-      Distributions customize the manual section to their specifics,
-      which often include additional sections.```
+```
