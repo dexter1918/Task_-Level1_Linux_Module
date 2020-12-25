@@ -21,4 +21,4 @@
    ```
    Now since `internsctl` is a `User Command`, the manual page should be created and stored in `man1` directory.
    
-- *Step 1 :* 
+- *Step 2 :* 
