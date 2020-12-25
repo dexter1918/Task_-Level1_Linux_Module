@@ -6,8 +6,8 @@
   <img src = "/images/Setting_Up_Man_Page_step-1.png">
   
   Here in this location several directories (eg.: man1, man2, man3....) store manual pages of several categories of commands.
-  <p><br>MANUAL SECTIONS</br>
-    <br>The standard sections of the manual include:</br>
+  <p>MANUAL SECTIONS\
+    The standard sections of the manual include:
 
     1      User Commands\
     2      System Calls<br  />
