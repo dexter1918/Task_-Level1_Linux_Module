@@ -9,8 +9,8 @@
   <p><br>MANUAL SECTIONS</br>
     <br>The standard sections of the manual include:</br>
 
-    <br>1      User Commands</br>
-    <br>2      System Calls</br>
+    1      User Commands
+    2      System Calls
     3      C Library Functions
     4      Devices and Special Files
     5      File Formats and Conventions
