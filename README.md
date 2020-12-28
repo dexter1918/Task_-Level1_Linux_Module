@@ -8,8 +8,8 @@
   \
     <img src = "/images/img_1.png">
   
-    Here in this location, several directories (e.g., man1, man2, man3...) store manual pages for different categories of commands as executable file. See below -
-
+    Here in this location, each man page is categorized in a specific section (directory), different directories (e.g., man1, man2, man3...) store manual pages for different           categories of commands. See below -
+   
      ```
      The standard sections of the manual include:
 
