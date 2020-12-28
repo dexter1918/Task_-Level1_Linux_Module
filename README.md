@@ -26,7 +26,14 @@
   * From the current directory, navigate to `/man1` directory using `cd /man1` command.
   * Create the source file of the man page using the command `touch` followed by `<File_Name>.<Section_Index>`.
 
-    > File_Name : The command whose manual to be created.\
+    > File_Name : The command whose manual page to be created.\
     > Section_Index : For man1 - it'll be **1**, For man2 - it'll be **2**, and so on.
     >
-    > In this it will be : **touch internsctl.1**
+    > In this case it will be : **touch internsctl.1**
+  * Now run `nano internsctl.1` to edit the source file. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
+    
+    ```shell
+          
+    ```
+    <span style="background-color: #1FD6FB">Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory</span>
+    Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
