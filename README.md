@@ -6,6 +6,7 @@
   * Subsequently using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages are normally stored in nroff(1) format.
   * Then run `ls` command to list all the directories in that location.
 
+
   <img src = "/images/img_1.png">
   
   Here in this location, several directories (e.g., man1, man2, man3...) store manual pages for different categories of commands as executable file. See below -
