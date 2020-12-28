@@ -1,6 +1,6 @@
 ## Creating and Configuring the Custom Command : `internsctl`
 ### Section A
-⚡ **Creating manual (man) page**
+⚡ 1. **Creating manual (man) page**
 - *Step 1 :* 
   * Login as a root user by running the command `sudo -i` (If it asks for the administrative password, Enter it).
   * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages of all the commands are normally stored in **nroff(1)** format.
