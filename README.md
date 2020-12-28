@@ -24,4 +24,5 @@
    
 - *Step 2 :*
   * From the current directory, navigate to `/man1` directory using `cd /man1` command.
-  *
+  * Create the source file of the man page using `/nano`followed by `<filename>.<Section Index>`.
+    > **_NOTE:_**  The note content.
