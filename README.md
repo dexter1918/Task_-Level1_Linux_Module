@@ -3,7 +3,7 @@
 ⚡ **Creating manual (man) page**
 - *Step 1 :* 
   * Login as a root user by running the command `sudo -i` (If it asks for the administrative password, Enter it).
-  * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages are normally stored in nroff(1) format.
+  * Now using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual pages of all the commands are normally stored in nroff(1) format.
   * Then run `ls` command to list all the directories in that location.\
   \
     <img src = "/images/img_1.png">
