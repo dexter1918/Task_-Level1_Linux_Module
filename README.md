@@ -3,7 +3,7 @@
 ⚡ **Creating manual (man) page**
 - *Step 1 :* Login as a root user by running the command `sudo -i` (If it asks for the administrative password, Enter it). Subsequently using `cd` command move into to the standrad location in filesystem : `/usr/share/man`, where manual (man) pages of all the commands are stored as executable files and then run `ls` command to list all the directories in that location.
 
-  <img src = "/images/Setting_Up_Manual_Page_step-1.png">
+  <img src = "/img_1.png">
   
   Here in this location, several directories (e.g., man1, man2, man3...) store manual pages for different categories of commands as executable file. See below -
   
