@@ -24,7 +24,7 @@
    
 - *Step 2 :*
   * From the current directory, navigate to `/man1` directory using `cd /man1` command.
-  * Create the source file of the man page using the command - `touch` followed by `<File_Name>.<Section_Index>`.
+  * Create the source file of the man page using the command `touch` followed by `<File_Name>.<Section_Index>`.
 
     > File_Name : The command whose manual you want to create.\
     > Section_Index : For man1 - it'll be **1**, For man2 - it'll be **2**, and so on.
