@@ -30,7 +30,7 @@
     > Section_Index : For man1 - it'll be **1**, For man2 - it'll be **2**, and so on.
     >
     > In this case it will be : **touch internsctl.1**
-    \
+    
     <img src = "/images/img_2.png">
   * Now run `nano internsctl.1` to edit the source file. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
     
