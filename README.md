@@ -33,10 +33,14 @@
     
     <img src = "/images/img_2.png">
 - *Step 3 :*    
-  * Now run `nano internsctl.1` to edit the source file. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
+  * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
     
     ```shell
-          
+
+
+
+
     ```
     ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
+    
     
