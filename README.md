@@ -25,7 +25,7 @@
 - *Step 2 :*
   * From the current directory, navigate to `/man1` directory using `cd /man1` command.
   * Create the source file of the man page using `nano`followed by `<File_Name>.<Section_Index>`.\
-    \
+\
     > **File_Name :** **internsctl** (The command itself)\
     > **Section_Index :** **1** (For man1)
     >
