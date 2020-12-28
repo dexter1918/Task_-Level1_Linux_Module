@@ -32,6 +32,7 @@
     > In this case it will be : **touch internsctl.1**
     
     <img src = "/images/img_2.png">
+- *Step 3 :*    
   * Now run `nano internsctl.1` to edit the source file. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
     
     ```shell
