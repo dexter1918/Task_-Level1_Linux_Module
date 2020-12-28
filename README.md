@@ -36,8 +36,23 @@
   * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
     
     ```shell
-
-
+       .\" Manual (man) page for internsctl
+       .\" Reach at sksalmanhaider@outlook.com in cas of errors or typos.
+       .TH internsctl 1 "28 December 2020" "0.1.0" "Custom Command"
+       .SH NAME
+       internsctl
+       .SH SYNOPSIS
+       nuseradd [USERNAME]
+       .SH DESCRIPTION
+       nuseradd is high level shell program for adding users to LDAP server.  On Debian, administrators should usually use nuseradd.debian(8) instead.
+       .SH OPTIONS
+       The nuseradd does not take any options. However, you can supply username.
+       .SH SEE ALSO
+       useradd(8), passwd(5), nuseradd.debian(8) 
+       .SH BUGS
+       No known bugs.
+       .SH AUTHOR
+       Sk Salman Haider
 
 
     ```
