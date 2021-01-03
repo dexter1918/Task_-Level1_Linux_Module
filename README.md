@@ -35,7 +35,7 @@
 - *Step 3 :*    
   * Now run `nano internsctl.1` to edit the source file in nano text editor. Copy and paste and following script into the source file or write it from yourself, following the conventions and syntax.
     
-    ```shell
+    ```
     .\" Manual (man) page of internsctl
     .TH internsctl 1 "28 December 2020" "0.1.0" "Custom Command"
     .SH NAME
