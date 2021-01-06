@@ -20,7 +20,7 @@
         man7  -  Miscellaneous
         man8  -  System Administration tools and Daemons
      ```
-     Now since **internsctl** is a **user command**, the manual page should be created and stored in `/man1` directory.
+     Now since **internsctl** is a **user command**, we will create and store the manual page file in `/man1` directory.
    
 - *Step 2 :*
   * From the current directory, navigate to `/man1` directory using `cd man1` command.
@@ -41,15 +41,26 @@
     .SH NAME
     internsctl
     .SH SYNOPSIS
-    nuseradd [USERNAME]
+    internsctl cpu getinfo |
+    .brinternsctl memory getinfo |
+    .brinternsctl user create <username> |
+    internsctl user list |
+    internsctl user list --sudo-only |
+    internsctl file getinfo <file-name> |
+    internsctl file getinfo [options] <file-name> 
     .SH DESCRIPTION
-    nuseradd is high level shell program for adding users to LDAP server.  On Debian, administrators should usually use nuseradd.debian(8) instead.
+    Display cpu and memory information, create new user, list all users, list all users with sudo permissions, get file information, get specific  information of file.  
     .SH OPTIONS
-    The nuseradd does not take any options. However, you can supply username.
-    .SH SEE ALSO
-    useradd(8), passwd(5), nuseradd.debian(8) 
+    .TP
+    .BR \-\-size ", " \-s			print " " file " " size
+    .TP
+    .BR \-\-permissions ", " \-p		print " " file " " permissions
+    .TP
+    .BR \-\-owner ", " \-o			print " " file " " owner
+    .TP
+    .BR \-\-last-modified ", " \-m		print " " last " " modified " " date " " and " " time " " of " " the " " file
     .SH BUGS
-    No known bugs.
+    No known bugs. (However reach at sksalmanhaider@outlook.com in case of any errors and typos.)
     .SH AUTHOR
     Sk Salman Haider
     ```
