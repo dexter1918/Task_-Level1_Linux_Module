@@ -114,7 +114,7 @@
     
 ⚡ **2. Creating function to display the command version (`internsctl --version`)**
 
-   * Copy and paste the following code into the file `internsctl` present in `/bin` folder and save it.
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
       
       ```
       getVersionInfo () {
