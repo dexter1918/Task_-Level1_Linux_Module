@@ -71,7 +71,7 @@
   \
     <img src = "/images/img_3.png">
 
-⚡ **2. Creating function to display the help text (Output of `internsctl --help`)** 
+⚡ **2. Creating function to display the help text (`internsctl --help`)** 
 
    * Create a file `internsctl` in `/bin` directory.
    * Copy and paste the following code into that file and save it.
@@ -106,5 +106,18 @@
         1  if minor problems (e.g., cannot access subdirectory),
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
+   * Follwing snapshot is the output of `internsctl --help` command.    
     
-⚡ **2. Creating function to display the command version [`internsctl --version`]**
+⚡ **2. Creating function to display the command version (`internsctl --version`)**
+
+   * Copy and paste the following code into the file `internsctl` present in `/bin` folder and save it.
+      ```
+      getVersionInfo () {
+	echo "internsctl 0.1.0"
+	echo "Copyright (C) 2020 XenonStack Software Foundation, Inc."
+	echo "This is free software: you are free to change and redistribute it."
+	echo "There is NO WARRANTY, to the extent permitted by law."
+	printf "\nWritten by Sk. Salman Haider.\n"
+	}
+      ```
+   
