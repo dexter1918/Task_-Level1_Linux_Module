@@ -71,5 +71,5 @@
   \
     <img src = "/images/img_3.png">
 
-⚡ **2. Creating function to display the help text : `internsctl --help`**
+⚡ **2. Creating function to display the help text (Output of `internsctl --help` command)**
     
