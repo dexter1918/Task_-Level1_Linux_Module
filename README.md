@@ -72,4 +72,13 @@
     <img src = "/images/img_3.png">
 
 ⚡ **2. Creating function to display the help text (Output of `internsctl --help` command)**
+  - *Step 1 :* 
+    * Create a file `internsctl` in `/bin` directory.
+    * Copy and paste the following code into that file.
+      ```
+      getHelp () {
+	     cat /usr/bin/helpPage.txt
+      }
+      ```
+    
     
