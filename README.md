@@ -71,6 +71,8 @@
   \
     <img src = "/images/img_3.png">
 
+#
+
 ⚡ **2. Creating function to display the help text (`internsctl --help`)** 
 
    * Create a file `internsctl` in `/bin` directory.
@@ -107,6 +109,8 @@
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
    * Follwing is the output of `internsctl --help` command.    
+   
+#   
     
 ⚡ **2. Creating function to display the command version (`internsctl --version`)**
 
