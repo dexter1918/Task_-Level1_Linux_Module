@@ -83,7 +83,7 @@
       ```
     * Now create another file `helpPage.txt` in the same directory and copy and paste the following help text into that file and save it.
     
-    >
+    ```
     	Usage: 'internsctl cpu getinfo' -> Get cpu information of the local server.
 	       'internsctl memory getinfo' -> Get memory information of the local server.
 	       'internsctl user create <username>' -> Create a new user on the local server.
@@ -105,6 +105,6 @@
 	 0  if OK,
 	 1  if minor problems (e.g., cannot access subdirectory),
 	 2  if serious trouble (e.g., cannot access command-line argument).
-   >
+   ```
     
     
