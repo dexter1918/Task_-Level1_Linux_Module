@@ -107,4 +107,4 @@
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
     
-⚡ **2. Creating function to display the command version (Output of `internsctl --version`)**
+⚡ **2. Creating function to display the command version [`internsctl --version`]**
