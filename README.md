@@ -66,7 +66,7 @@
     ➡️ Refer to this link for man page syntax : https://unix.stackexchange.com/questions/90759/where-should-i-install-manual-pages-in-user-directory
     
 - *Step 4 :*
-  * Now it's done.
+  * Now it's done 🔥🥳🤩
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
     <img src = "/images/img_3.png">
