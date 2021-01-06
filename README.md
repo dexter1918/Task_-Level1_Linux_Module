@@ -113,12 +113,12 @@
    * Copy and paste the following code into the file `internsctl` present in `/bin` folder and save it.
       
       ```
-      getVersionInfo () {
-	echo "internsctl 0.1.0"
-	echo "Copyright (C) 2020 XenonStack Software Foundation, Inc."
-	echo "This is free software: you are free to change and redistribute it."
-	echo "There is NO WARRANTY, to the extent permitted by law."
-	printf "\nWritten by Sk. Salman Haider.\n"
+      	getVersionInfo () {
+		echo "internsctl 0.1.0"
+		echo "Copyright (C) 2020 XenonStack Software Foundation, Inc."
+		echo "This is free software: you are free to change and redistribute it."
+		echo "There is NO WARRANTY, to the extent permitted by law."
+		printf "\nWritten by Sk. Salman Haider.\n"
 	}
       ```
    
