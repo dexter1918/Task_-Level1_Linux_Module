@@ -75,6 +75,7 @@
   - *Step 1 :* 
     * Create a file `internsctl` in `/bin` directory.
     * Copy and paste the following code into that file.
+    
       ```
       getHelp () {
 	     cat /usr/bin/helpPage.txt
