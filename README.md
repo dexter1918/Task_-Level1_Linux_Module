@@ -70,5 +70,6 @@
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
     <img src = "/images/img_3.png">
-    
+
+⚡ **2. Creating function to display the help text : `internsctl --help`**
     
