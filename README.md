@@ -67,7 +67,7 @@
     
 - *Step 4 :*
   * Now it's done.
-  * Run `man internsctl` from terminal to check the manual page of the `internsctl`. See below -\
+  * Run `man internsctl` from terminal to check the manual page of the `internsctl`. Below is the snapshot of the same -\
   \
     <img src = "/images/img_3.png">
     
