@@ -106,11 +106,12 @@
         1  if minor problems (e.g., cannot access subdirectory),
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
-   * Follwing snapshot is the output of `internsctl --help` command.    
+   * Follwing is the output of `internsctl --help` command.    
     
 ⚡ **2. Creating function to display the command version (`internsctl --version`)**
 
    * Copy and paste the following code into the file `internsctl` present in `/bin` folder and save it.
+      
       ```
       getVersionInfo () {
 	echo "internsctl 0.1.0"
