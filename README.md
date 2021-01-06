@@ -72,15 +72,16 @@
     <img src = "/images/img_3.png">
 
 ⚡ **2. Creating function to display the help text (Output of `internsctl --help`)** 
-    * Create a file `internsctl` in `/bin` directory.
-    * Copy and paste the following code into that file and save it.
+
+   * Create a file `internsctl` in `/bin` directory.
+   * Copy and paste the following code into that file and save it.
     
       ```
       getHelp () {
 	     cat /usr/bin/helpPage.txt
       }
       ```
-    * Now create another file `helpPage.txt` in the same directory and copy and paste the following help text into that file and save it.
+   * Now create another file `helpPage.txt` in the same directory and copy and paste the following help text into that file and save it.
     
       ```
       Usage: 'internsctl cpu getinfo' -> Get cpu information of the local server.
