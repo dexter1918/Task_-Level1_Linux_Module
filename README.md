@@ -68,5 +68,6 @@
 - *Step 4 :*
   * Now it's done.
   * Run `man internsctl` from terminal to check the manual page of the `internsctl`.
+  <img src = "/images/img_3.png">
     
     
