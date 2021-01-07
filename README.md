@@ -210,5 +210,38 @@
 
 #
 
-#### Part 2 | Level Intermediate
+#### Part 3 | Advanced Level
+⚡ **1. Creating function to get some information about a file through the command `internsctl file getinfo <file-name>`**
+
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+   
+   ```
+   getFileInfo () {
+	if test -f "$3"; then
+		echo "File: $3"
+		displayPermissions() {
+			case "$1" in
+				0) echo "n-";;
+				1) echo "--x";;
+				2) echo "-w-";;
+				3) echo "-wx";;
+				4) echo "r--";;
+				5) echo "r-x";;
+				6) echo "rw-";;
+				7) echo "rwx";;
+		  	esac
+		}
+		permissions=$(stat -c%a "$3")
+		user=${permissions:0:1}
+		group=${permissions:1:1}
+		others=${permissions:2:1}
+		echo "Access: -$(displayPermissions $user)$(displayPermissions $group)$(displayPermissions $others)"		
+		myFileSize=$(wc -c $3 | awk '{print $1}')
+		echo "Size(B): $myFileSize"		
+		echo "Owner: $(stat -c '%U' $3)"		
+	else
+		echo "internsctl: cannot access '$3': No such file in current directory"
+	fi	
+   }
+   ```
 
