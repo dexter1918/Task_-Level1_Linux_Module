@@ -221,7 +221,7 @@
 		echo "File: $3"
 		displayPermissions() {
 			case "$1" in
-				0) echo "n-";;
+				0) echo "no";;
 				1) echo "--x";;
 				2) echo "-w-";;
 				3) echo "-wx";;
