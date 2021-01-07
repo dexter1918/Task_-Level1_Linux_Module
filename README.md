@@ -328,4 +328,4 @@
      > --owner, -o toprint file owner\
      > --last-modified, -m to print last modification time and date
 
-    <img src = "/images/img_12.png">
+     <img src = "/images/img_12.png">
