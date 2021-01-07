@@ -155,7 +155,7 @@
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
       ```
-        getMemoryInfo () {
+      getMemoryInfo () {
 		free
       }
       ```
