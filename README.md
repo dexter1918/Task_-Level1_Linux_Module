@@ -247,3 +247,76 @@
    * Follwing is the output of `internsctl file getinfo <file-name>`, showing information about a file.\
    \
      <img src = "/images/img_11.png">
+
+#
+
+⚡ **2. Creating function to get specific information about a file through the command `internsctl file getinfo <file-name>`**
+
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+   
+     ```
+     getSpecificFileInfo () {
+		case "$3" in
+			--size | -s)	
+				if test -f "$4"; then
+					myFileSize=$(wc -c $4 | awk '{print $1}')
+					if [ $myFileSize -ge 1000 ]; then
+						myFileSize=$(echo "$myFileSize * 0.001"|bc)
+						printf "%.2f kilobytes\n" $myFileSize
+					else
+						echo "$myFileSize bytes"
+					fi
+				else
+					echo "internsctl: cannot access '$4': No such file in current directory"
+				fi ;;
+
+			"--permissions" | "-p")
+				if test -f "$4"; then
+					displayPermissions() {
+						case "$1" in
+							0) echo "n-";;
+							1) echo "--x";;
+							2) echo "-w-";;
+							3) echo "-wx";;
+							4) echo "r--";;
+							5) echo "r-x";;
+							6) echo "rw-";;
+							7) echo "rwx";;
+						esac
+					}
+					permissions=$(stat -c%a "$4")
+					user=${permissions:0:1}
+					group=${permissions:1:1}
+					others=${permissions:2:1}
+					echo "-$(displayPermissions $user)$(displayPermissions $group)$(displayPermissions $others)"
+				else
+					echo "internsctl: cannot access '$4': No such file in current directory"
+				fi ;;
+
+			"--owner" | "-o")
+				if test -f "$4"; then
+					echo "$(stat -c '%U' $4)"
+				else
+					echo "internsctl: cannot access '$4': No such file in current directory"
+				fi ;;
+
+			"--last-modified" | "-m")
+				if test -f "$4"; then
+					echo "$(stat -c '%y' $4)"
+				else
+					echo "internsctl: cannot access '$4': No such file in current directory"
+				fi ;;
+
+			*)
+				if [ "${3:0:1}" = "-" ]; then
+					echo "internsctl: invalid option"
+					printf "\nUsage:\n internsctl file getinfo [options] <file-name>\n"
+					printf "\nTry 'internsctl --help' for more information.\n"
+				else
+					printf "error: too many arguments\n"
+					printf "\nUsage:\n internsctl file getinfo <file-name>\n"
+					printf "\n Try 'internsctl --help' for additional help text.\n"
+				fi ;;
+		esac
+     }
+     ```
