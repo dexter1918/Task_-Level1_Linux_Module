@@ -244,4 +244,6 @@
 	 fi	
      }
      ```
-
+   * Follwing is the output of `internsctl file getinfo <file-name>`, showing information about a file.\
+   \
+     <img src = "/images/img_11.png">
