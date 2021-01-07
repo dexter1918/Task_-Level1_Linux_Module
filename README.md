@@ -175,6 +175,19 @@
 		sudo adduser $3
       }
       ```
-   * Follwing is how we create an user called "XYZ" on our server through `internsctl user create <username>`.\
+   * Follwing is how we create an user called "xyz" on our server through `internsctl user create <username>`.\
    \
      <img src = "/images/img_8.png">
+
+#
+
+⚡ **2. Creating function to list all the regular users present on the server through the command ` internsctl user list`**
+
+      ```
+      getUsers () {
+		cut -d: -f1 /etc/passwd
+      }
+      ```
+   * Follwing is the output of `internsctl user list`, listing all the regular users present on the server.\
+   \
+     <img src = "/images/img_9.png">
