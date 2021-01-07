@@ -329,3 +329,112 @@
      > --last-modified, -m to print last modification time and date
 
      <img src = "/images/img_12.png">
+
+## Driver Function
+     ```
+	     driver_function () {
+	if [ "$1" == "--help" ] && [ -z "$3" ]
+	then
+		getHelp
+		exit 1
+	fi
+	if [ "$1" == "--version" ] && [ -z "$3" ]
+	then
+		getVersionInfo
+		exit 1
+	fi
+	if [ "$1" == "file" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ] && [ ! -z "$4" ] && [ -z "$5" ]
+	then
+		getSpecificFileInfo $1 $2 $3 $4
+		exit 1
+	elif [ "$1" == "file" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ] && [ ! -z "$4" ] && [ ! -z "$5" ]
+	then
+		echo "error: too many arguments"
+		printf "\nUsage:\n internsctl file getinfo [options] <file-name>\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+	if [ "$1" == "user" ] && [ "$2" == "list" ] && [ "$3" == "--sudo-only" ] && [ -z "$4" ]
+	then
+		getSudoUsers
+		exit 1
+	elif [ "$1" == "user" ] && [ "$2" == "list" ] && [ "$3" == "--sudo-only" ] && [ ! -z "$4" ]
+	then
+		echo "error: too many arguments"
+		printf "\nUsage:\n internsctl user list [options]\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	elif [ "$1" == "user" ] && [ "$2" == "list" ] && [ ! -z "$3" ] && [ -z "$4" ]
+	then
+		echo "internsctl: invalid option"
+		printf "\nUsage:\n internsctl user list [options]\n"
+		printf "\nTry 'internsctl --help' for more information.\n"
+		exit 1
+	fi
+	if [ "$1" == "user" ] && [ "$2" == "list" ] && [ -z "$3" ]
+	then
+		getUsers
+		exit 1
+	elif [ "$1" == "user" ] && [ "$2" == "list" ] && [ ! -z "$3" ]
+	then
+		echo "error: too many arguments"
+		printf "\nUsage:\n internsctl user list\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+	if [ "$1" == "memory" ] && [ "$2" == "getinfo" ] && [ -z "$3" ]
+	then
+		getMemoryInfo
+		exit 1
+	elif [ "$1" == "memory" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ]
+	then
+		echo "error: too many arguments"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+	if [ "$1" == "cpu" ] && [ "$2" == "getinfo" ] && [ -z "$3" ]
+	then
+		getCpuInfo
+		exit 1
+	elif [ "$1" == "cpu" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ]
+	then
+		echo "error: too many arguments"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+	if [ "$1" == "file" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ] && [ -z "$4" ]
+	then
+		getFileInfo $1 $2 $3
+		exit 1
+	elif [ "$1" == "file" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ] && [ ! -z "$4" ]
+	then
+		echo "error: too many arguments"
+		printf "\nUsage:\n internsctl file getinfo <file-name>\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+	if [ "$1" == "user" ] && [ "$2" == "create" ] && [ ! -z "$3" ] && [ -z "$4" ]
+	then
+		createUser $1 $2 $3
+		exit 1
+	elif [ "$1" == "file" ] && [ "$2" == "getinfo" ] && [ ! -z "$3" ] && [ ! -z "$4" ]
+	then
+		echo "error: too many arguments"
+		printf "\nUsage:\n internsctl user create <username>\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	fi
+		printf "\nUsage:\n"
+		printf " internsctl cpu getinfo\n"
+		printf " internsctl memory getinfo\n"
+		printf " internsctl user create <username>\n"
+		printf " internsctl user list\n"
+		printf " internsctl user list --sudo-only\n"
+		printf " internsctl file getinfo <file-name>\n"
+		printf " internsctl file getinfo [options] <file-name>\n"
+		printf "\n Try 'internsctl --help' for additional help text.\n"
+		exit 1
+	}
+     ```
+     
+#
