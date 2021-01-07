@@ -73,7 +73,7 @@
 
 #
 
-⚡ **2. Creating function to display the help text (`internsctl --help`)** 
+⚡ **2. Creating function to display the help text through the command `internsctl --help`** 
 
    * Create a file `internsctl` in `/bin` directory.
    * Copy and paste the following code into that file and save it.
@@ -114,7 +114,7 @@
    
 #   
     
-⚡ **2. Creating function to display version of the command (`internsctl --version`)**
+⚡ **2. Creating function to display version of the command through `internsctl --version`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
       
@@ -134,5 +134,12 @@
    #
 
 ### Section B
-⚡ **1. Func to get cpu information of server through the command `internsctl cpu getinfo`**
-     
+⚡ **1. Function to get cpu information of server through the command `internsctl cpu getinfo`**
+
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+
+      ```
+	 getCpuInfo () {
+		lscpu
+	}
+      ```
