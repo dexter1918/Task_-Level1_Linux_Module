@@ -133,5 +133,6 @@
      
    #
 
-### Section A
+### Section B
+⚡ **1. Creating manual (man) page**
      
