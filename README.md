@@ -141,5 +141,5 @@
       ```
 	 getCpuInfo () {
 		lscpu
-	}
+      }
       ```
