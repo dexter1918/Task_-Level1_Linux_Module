@@ -1,0 +1,21 @@
+Usage: 'internsctl cpu getinfo' -> Get cpu information of the local server.
+       'internsctl memory getinfo' -> Get memory information of the local server.
+       'internsctl user create <username>' -> Create a new user on the local server.
+       'internsctl user list' -> List all the regular users present on the local server.
+       'internsctl user list' --sudo-only' -> List all the users with sudo permissions on the local server.
+       'internsctl file getinfo <file-name>' -> Get information about a file.
+       'internsctl file getinfo [options] <file-name>' -> Get specific information about a file.
+
+Mandatory arguments to long options are mandatory for short options too.
+  --size, -s			print file size
+  --permissions, -p		print file permissions
+  --owner, -o			print file owner
+  --last-modified, -m		print last modified date and time of the file
+
+  --help     			display help text and exit
+  --version  			output version information and exit
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
