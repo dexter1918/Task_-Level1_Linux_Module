@@ -215,9 +215,9 @@
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
-   ```
-   getFileInfo () {
-	if test -f "$3"; then
+     ```
+     getFileInfo () {
+	 if test -f "$3"; then
 		echo "File: $3"
 		displayPermissions() {
 			case "$1" in
@@ -239,9 +239,9 @@
 		myFileSize=$(wc -c $3 | awk '{print $1}')
 		echo "Size(B): $myFileSize"		
 		echo "Owner: $(stat -c '%U' $3)"		
-	else
+	 else
 		echo "internsctl: cannot access '$3': No such file in current directory"
 	fi	
-   }
-   ```
+     }
+     ```
 
