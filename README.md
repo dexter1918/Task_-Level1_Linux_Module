@@ -162,3 +162,19 @@
    * Follwing is the output of `internsctl memory getinfo`.\
    \
      <img src = "/images/img_7.png">
+     
+#
+
+#### Part 2 | Level Intermediate
+⚡ **1. Creating function to create a new user on server through the command `internsctl user create <username>`**
+
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+   
+      ```
+      createUser () {
+		sudo adduser $3
+      }
+      ```
+   * Follwing is how we create an user called "XYZ" on our server through `internsctl user create <username>`.\
+   \
+     <img src = "/images/img_8.png">
