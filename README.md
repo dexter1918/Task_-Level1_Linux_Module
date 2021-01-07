@@ -324,8 +324,8 @@
    
      > **Options :**\
      > --size, -s to print size\
-     > --permissions, -p print file permissions\
-     > --owner, o print file owner\
-     > --last-modified, m\
+     > --permissions, -p to print file permissions\
+     > --owner, -o toprint file owner\
+     > --last-modified, -m to print last modification time and date
 
    <img src = "/images/img_12.png">
