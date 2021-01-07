@@ -108,7 +108,7 @@
         1  if minor problems (e.g., cannot access subdirectory),
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
-   * Follwing is the output of `internsctl --help` command.\
+   * Follwing is the output of `internsctl --help`.\
    \
      <img src = "/images/img_4.png">
    
@@ -127,4 +127,6 @@
 	     printf "\nWritten by Sk. Salman Haider.\n"
       }
       ```
-   
+   * Follwing is the output of `internsctl --version`.\
+   \
+     <img src = "/images/img_5.png">  
