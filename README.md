@@ -71,7 +71,7 @@
   \
     <img src = "/images/img_3.png">
 
-##
+#
 
 ⚡ **2. Creating function to display the help text (`internsctl --help`)** 
 
@@ -108,9 +108,11 @@
         1  if minor problems (e.g., cannot access subdirectory),
         2  if serious trouble (e.g., cannot access command-line argument).
       ```
-   * Follwing is the output of `internsctl --help` command.    
+   * Follwing is the output of `internsctl --help` command.\
+   \
+     <img src = "/images/img_4.png">
    
-##   
+#   
     
 ⚡ **2. Creating function to display the command version (`internsctl --version`)**
 
