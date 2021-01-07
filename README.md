@@ -184,7 +184,7 @@
 ⚡ **2. Creating function to list all the regular users present on the server through the command ` internsctl user list`**
 
       ```
-      getUsers () {
+       getUsers () {
 		cut -d: -f1 /etc/passwd
       }
       ```
