@@ -207,3 +207,7 @@
    * Follwing is the output of `internsctl user list --sudo-only`, listing all the users with sudo permissions on the server.\
    \
      <img src = "/images/img_10.png">
+
+#
+
+#### Part 2 | Level Intermediate
