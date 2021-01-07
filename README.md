@@ -147,3 +147,15 @@
    * Follwing is the output of `internsctl cpu getinfo`.\
    \
      <img src = "/images/img_6.png">
+     
+     #
+     
+⚡ **2. Creating function to get memory information of server through the command `internsctl memory getinfo`**
+   
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+   
+      ```
+        getMemoryInfo () {
+		free
+      }
+      ```
