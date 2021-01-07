@@ -331,8 +331,9 @@
      <img src = "/images/img_12.png">
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*********************************************************************************************************************************************************************************
 
 ## Alternatively
 
- **You can skip all the steps except 'creation of the man page' and only copy and paste the following files in the `/bin` directory of your system, and it'll be up and running fine without any issues**
+ **You can skip all the steps except 'creation of the man page' and only copy and paste the following files in the `/bin` directory of your system, and it'll be up and running fine without any issues.**
+ 
+ * [internsctl]()
