@@ -332,7 +332,7 @@
 
 ## Driver Function
 
-     ```
+    ```
      driver_function () {
 	if [ "$1" == "--help" ] && [ -z "$3" ]
 	then
@@ -435,7 +435,7 @@
 		printf " internsctl file getinfo [options] <file-name>\n"
 		printf "\n Try 'internsctl --help' for additional help text.\n"
 		exit 1
-    }
-     ```
+     }
+    ```
      
 #
