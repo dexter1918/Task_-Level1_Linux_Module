@@ -175,7 +175,7 @@
 		sudo adduser $3
       }
       ```
-   * Follwing is how we create an user called "xyz" on our server through `internsctl user create <username>`.\
+   * Follwing is how we create an user called "xyz" on our server through `internsctl user create xyz`.\
    \
      <img src = "/images/img_8.png">
 
@@ -244,13 +244,13 @@
 	 fi	
      }
      ```
-   * Follwing is the output of `internsctl file getinfo <file-name>`, showing information about a file.\
+   * Follwing is the output of `internsctl file getinfo abc.txt`, showing information about a file `abc.txt`.\
    \
      <img src = "/images/img_11.png">
 
 #
 
-⚡ **2. Creating function to get specific information about a file through the command `internsctl file getinfo <file-name>`**
+⚡ **2. Creating function to get specific information about a file through the command `internsctl file getinfo [options] <file-name>`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
    
@@ -274,7 +274,7 @@
 				if test -f "$4"; then
 					displayPermissions() {
 						case "$1" in
-							0) echo "n-";;
+							0) echo "no";;
 							1) echo "--x";;
 							2) echo "-w-";;
 							3) echo "-wx";;
@@ -320,3 +320,12 @@
 		esac
      }
      ```
+   * Follwing is the output of `internsctl file getinfo [options] abc.txt`, showing information about a file `abc.txt`.\
+   \
+     > **Options :**
+     > --size, -s to print size
+     > --permissions, -p print file permissions
+     > --owner, o print file owner
+     > --last-modified, m
+
+   <img src = "/images/img_12.png">
