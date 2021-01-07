@@ -181,7 +181,7 @@
 
 #
 
-⚡ **2. Creating function to list all the regular users present on the server through the command ` internsctl user list`**
+⚡ **2. Creating function to list all the regular users present on the server through the command `internsctl user list`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
 
@@ -193,3 +193,17 @@
    * Follwing is the output of `internsctl user list`, listing all the regular users present on the server.\
    \
      <img src = "/images/img_9.png">
+     
+
+⚡ **3. Creating function to list all the users with sudo permissions on the server through the command `internsctl user list --sudo-only`**
+
+   * Add the following code into the file `internsctl` present in `/bin` folder and save it.
+
+      ```
+      getSudoUsers () {
+		getent group sudo | cut -d: -f4
+      }
+      ```
+   * Follwing is the output of `internsctl user list --sudo-only`, listing all the users with sudo permissions on the server.\
+   \
+     <img src = "/images/img_10.png">
