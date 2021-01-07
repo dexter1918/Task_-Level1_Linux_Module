@@ -241,7 +241,7 @@
 		echo "Owner: $(stat -c '%U' $3)"		
 	 else
 		echo "internsctl: cannot access '$3': No such file in current directory"
-	fi	
+	 fi	
      }
      ```
 
