@@ -336,4 +336,5 @@
 
  **You can skip all the steps except 'creation of the man page' and only copy and paste the following files in the `/bin` directory of your system, and it'll be up and running fine without any issues.**
  
- * [internsctl]()
+ * [internsctl](https://github.com/dexter1918/Task_-Level1_Linux_Module/blob/main/internsctl)
+ * [helpPage.txt]
