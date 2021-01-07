@@ -159,3 +159,6 @@
 		free
       }
       ```
+   * Follwing is the output of `internsctl memory getinfo`.\
+   \
+     <img src = "/images/img_7.png">
