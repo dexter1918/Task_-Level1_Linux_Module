@@ -114,7 +114,7 @@
    
 #
     
-⚡ **2. Creating function to display version of the command through `internsctl --version`**
+⚡ **3. Creating function to display version of the command through `internsctl --version`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
       
@@ -134,6 +134,7 @@
 #
 
 ### Section B
+#### Part 1 | Level Easy 
 ⚡ **1. Creating function to get cpu information of server through the command `internsctl cpu getinfo`**
 
    * Add the following code into the file `internsctl` present in `/bin` folder and save it.
